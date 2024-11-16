@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <script src="https://kit.fontawesome.com/787f75fd44.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./2.jpg" type="image" >
+    <style>
+        table, th, td { border: 2px solid black;
+        text-align: center;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+
+        }
+        table {
+            border-style: groove;
+            border-color: dodgerblue ;
+        }
+        th, th {
+            border-radius: 10px; 
+            
+        }
+        tr:nth-child(odd){
+            background-color: rgb(238, 116, 197);
+        }
+        th:nth-child(even) {
+            background-color: rgb(104, 218, 100);
+        }
+        tr:hover {background-color: aqua;}
+    </style>
+
+
+</head>
+<body>
+    <h1><u>Assignment 10</u></h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem tempora asperiores dolores deleniti ex provident quisquam similique iusto dicta consectetur nostrum, ipsam eligendi labore tempore sint quaerat mollitia totam dolor?</p>
+    <table>       
+        <thed>
+            <caption> <mark>This is table data</mark> </caption>
+            <!-- <colgroup>
+                <col span="2">
+                <col span="3" style="background-color: violet;" >
+            </colgroup> -->
+
+            <tr>
+                <th>SL No.</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Photo</th>
+                <th>Address <i class="fa-solid fa-house"></i> </th>
+                <th>Mobile <i class="fa-solid fa-phone-flip"></i> </th>
+                <th>Email <i class="fa-solid fa-envelope-open-text"></i> </th>
+                <th>Remark</th>
+            </tr>
+        </thed>
+        <tbody>
+            <tr>
+                <th>01</th>
+                <th>Mehedi hasan</th>
+                <th>45</th>
+                <th> <img src="./table.jpg" alt="photo" width="50px" height="50px"> </th>
+                <th>Dhaka</th>
+                <th>01911409036</th>
+                <th>mehedisumon886@gmail.com</th>
+                <th>Ok</th>
+            </tr>
+            <tr>
+                <th>02</th>
+                <th>Mubashshir</th>
+                <th>18</th>
+                <th><i class="fa-regular fa-id-card"></i></th>
+                <th>Dhaka</th>
+                <th>01691479041</th>
+                <th>mubash886@gmail.com</th>
+                <th>Ok</th>
+            </tr>
+            <tr>
+                <th>03</th>
+                <th>Sumon Munshi</th>
+                <th>25</th>
+                <th><i class="fa-regular fa-id-card"></i></th>
+                <th>Dhaka</th>
+                <th>01645479047</th>
+                <th>sumon7863@gmail.com</th>
+                <th>Ok</th>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>04</th>
+                <th>Saddam</th>
+                <th>30</th>
+                <th><i class="fa-regular fa-id-card"></i></th>
+                <th>Dhaka</th>
+                <th>01727900746</th>
+                <th>mh409036@gmail.com</th>
+                <th>Ok</th>
+            </tr>
+        </tfoot>
+        
+
+    </table>
+</body>
+</html>
